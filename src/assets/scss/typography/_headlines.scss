@@ -1,0 +1,52 @@
+.heading_1,
+.heading_2,
+.heading_3,
+.heading_4,
+.heading_5 {
+    @include semiBoldSans;
+    font-weight: 600;
+}
+.heading_1 {
+    font-size: 36px;
+    line-height: 48px;
+}
+.heading_2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+.heading_3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+.heading_4 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.heading_5 {
+    font-size: 16px;
+    line-height: 22px;
+}
+@media (max-width: 767px) {
+    .heading {
+        &_1 {
+            font-size: 28px;
+            line-height: 38px;
+        }
+        &_2 {
+            font-size: 24px;
+            line-height: 34px;
+        }
+        &_3 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        &_4 {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &_5 {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}

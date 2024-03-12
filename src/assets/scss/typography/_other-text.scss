@@ -1,0 +1,67 @@
+.body_l {
+    font-size: 20px;
+    line-height: 28px;
+}
+.body_m {
+    font-size: 18px;
+    line-height: 24px;
+}
+.body_s {
+    font-size: 16px;
+    line-height: 22px;
+}
+.body_s_s {
+    font-size: 16px;
+    line-height: 22px;
+}
+.footnote_l_m {
+    font-size: 14px;
+    line-height: 20px;
+}
+.footnote_l {
+    font-size: 14px;
+    line-height: 20px;
+}
+.footnote_m {
+    font-size: 12px;
+    line-height: 18px;
+}
+.footnote_s {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.font_button_m,
+.font_button_s {
+        @include semiBoldSans;
+        font-weight: 600;
+    }
+.font_button_m {
+    font-size: var(--font_button_m);
+    line-height: var(--lh_button_m);
+}
+.font_button_s {
+    font-size: var(--font_button_s);
+    line-height: var(--lh_button_s);
+}
+@media (max-width: 767px) {
+    .body_l {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .body_m {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .body_s {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footnote_l_m {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .footnote_m {
+        line-height: 16px;
+    }
+}

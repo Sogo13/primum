@@ -1,0 +1,81 @@
+:root {
+    --font-size: 16px;
+    --font_button_m: 16px;
+    --lh_button_m: 24px;
+    --font_button_s: 14px;
+    --lh_button_s: 24px;
+
+    --icon-sprite-width: 24px;
+    --icon-sprite-height: 24px;
+
+    --text-body: #2E2E32;
+    --text-link: #4872F2;
+    --text-secondary-1: #7E8389;
+    --text-secondary-2: #B3B9C0;
+    --text-secondary-3: #DBE0E5;
+    --text-disabled: #B5B8BC;
+    --bg-gray-1: #EFF2F6;
+    --bg-gray-2: #F6F8FA;
+    --bg-gray-3: #3c3c3c;
+    --bg-gray-4: #EDF1FE;
+    --bg-turquoise: #EDFAF9;
+    --bg-white: #ffffff;
+    --bg-yellow:#fffce6;
+    --bg-red:#FDECEC;
+    --bg-blue:#EDF1FE;
+    --bg-popup-body: rgba(46, 46, 50, 0.7);
+    --bg-green: #28bf68;
+    --white: #ffffff;
+    --color-red: #e73c3e;
+    --color-green: #28bf68;
+    --color-orange: #FFCD00;
+    --color-cornflower: #4872F2;
+    --state-yellow-normal: #ffe100;
+    --state-disabled: #E9EAEC;
+    --state-cornflower-normal: #4872F2;
+    --state-gray-normal: #F6F8FA;
+    --status-green:#EDFAF9;
+    --status-yellow:#FFFCE6;
+    --popup-bg: rgba(46, 46, 50, .7);
+
+    --border-turn-off: #D4D9DE;
+    --border-separator: #DBE0E5;
+    --border-disabled: #E9EAEC;
+    --border-border-pressed:#7E8389;
+
+    --icon-white: #fff;
+    --icon-optional: #4872F2;
+    --icon-secondary-1: #7E8389;
+    --icon-secondary-2: #B3B9C0;
+    --icon-disabled: #E9EAEC;
+    --icon-success: #28bf68;
+    --clr-main-icon: #2E2E32;
+    --clr-icon-question: #2E2E32;
+    
+    --stroke-icon-phone: #2E2E32;
+    --stroke-icon-upload: #2E2E32;
+    --stroke-icon-emoji: #2E2E32;
+    --stroke-icon-emoji-sad: #2E2E32;
+    --stroke-icon-eye: #2E2E32;
+    --stroke-icon-paperclip: #2E2E32;
+
+    --fill-release-full: #4872F2;
+    --fill-icon-shield: #2E2E32;
+
+    --hover-icon: #4872F2;
+
+//    Datepicker
+    --vdp-text-color: var(--text-body);
+    --vdp-hover-bg-color: var(--state-cornflower-normal);
+    --vdp-selected-bg-color: var(--state-cornflower-normal);
+    --vdp-heading-weight: normal;
+    --vdp-current-date-font-weight: normal;
+}
+@media (max-width: 767px) {
+    :root {
+        --font_button_m: 14px;
+        --lh_button_m: 22px;
+        --font_button_s: 12px;
+        --lh_button_s: 22px;
+    }
+}

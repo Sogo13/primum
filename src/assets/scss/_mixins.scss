@@ -1,0 +1,36 @@
+//ШРИФТЫ
+@mixin regularSans {
+    font-family: 'Open Sans ', sans-serif;
+}
+@mixin semiBoldSans {
+    font-family: 'Open Sans', 'Open Sans ', sans-serif;
+}
+@mixin boldSans {
+    font-family: 'Open Sans Bold', sans-serif;
+}
+@mixin grid-cols-gap($num, $gap) {
+    display: grid;
+    grid-template-columns: repeat(#{$num}, minmax(0, 1fr));
+    gap: #{$gap}px;
+}
+@mixin fade-text {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    &:after {
+        position: absolute;
+        content: '';
+        width: 24px;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+}
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+@mixin font($size, $lineHeight: 1.4) {
+    font-size: $size;
+    line-height: $lineHeight;
+}

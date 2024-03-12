@@ -1,17 +1,16 @@
 <template>
-  <div class="wrapper-view">
-    <MainPage />
+  <div class="container">
+    Main
   </div>
 </template>
 
 <script>
-import MainPage from '@/components/pages/MainPage/MainPage.vue'
+
 export default {
   emits: [''],
   props: {},
   name: 'HomeView',
   components: {
-    MainPage,
   },
 }
 </script>
