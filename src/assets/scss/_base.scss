@@ -68,6 +68,9 @@ input {
 }
 textarea {
     @include regularSans;
+    font-size: var(--font-size);
+    line-height: 1.4;
+    text-size-adjust: 100%;
 }
 
 a {
